@@ -607,6 +607,15 @@
     background: radial-gradient(ellipse at 50% 30%, rgba(200,150,90,0.08), transparent 70%);
   }
 
+  .founder-headshot {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    z-index: 1;
+  }
+
   .founder-image-text {
     font-size: 0.8rem;
     color: var(--muted);
@@ -1017,7 +1026,7 @@
     <div class="founder-layout">
       <div class="founder-image-area reveal">
         <div class="founder-image-placeholder">
-          <span class="founder-image-text">Headshot Photo</span>
+          <img src="images/Web Res-0349.jpg" alt="Jerri Bland, Founder &amp; CEO of Powerhouse Industries" class="founder-headshot">
         </div>
         <div class="founder-accent-line"></div>
       </div>
